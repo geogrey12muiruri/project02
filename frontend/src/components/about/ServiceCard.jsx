@@ -20,7 +20,7 @@ const ServiceCard = ({ title, details, icon, link }) => {
             <img src={icon} alt={title} />
           </div>
           <h3 className="text-xl font-bold text-slate-950 text-center mb-2">{title}</h3>
-          <p className="text-sm text-center text-gray-700 dark:text-slat-900">{details}</p>
+          <p className="text-md text-center text-gray-700 dark:text-slat-900">{details}</p>
           <a href="/services" className="text-blue-600">{link}</a>
         </div>
       </div>
