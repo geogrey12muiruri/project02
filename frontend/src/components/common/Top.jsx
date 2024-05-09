@@ -6,7 +6,7 @@ import logo from '../../assets/medplus.svg';
 import doctor from '../../assets/doc.png';
 
 const TopSection = ({ authUser }) => (
-    <div className="bg-gray-800 text-white p-4 flex sticky top-0 z-50 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] items-center justify-between">
+    <div className="bg-gray-800 text-white p-4 flex sticky top-0 z-50 shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] items-center justify-between">
         <div className="flex items-center">
             <div className="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-lg font-bold">
             
